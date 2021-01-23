@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "448369618936",
+    "project_id": "findyourplace-e35c8",
+    "storage_bucket": "findyourplace-e35c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448369618936:android:97a581d374416ddfecf00d",
+        "android_client_info": {
+          "package_name": "com.example.findyourplace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "448369618936-vqdqci25piv2vcrn2ls42mtr1et4iq47.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.findyourplace",
+            "certificate_hash": "7870df29e6f9b57652bde2d91a38e3f2181d5e67"
+          }
+        },
+        {
+          "client_id": "448369618936-q44jiori3ajpe7cait12tst046djp1uv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb751nqq5FTAveGaei-auC-X3ppBAoJzI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "448369618936-q44jiori3ajpe7cait12tst046djp1uv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

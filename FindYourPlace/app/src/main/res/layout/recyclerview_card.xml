@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="3dp"
+    android:id="@+id/cardView_container">
+
+    <ImageView
+        android:id="@+id/imageView_post1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#a1a1a1"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_post_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:text="タイトル"
+            android:textSize="24sp"
+            android:textColor="#000"
+            android:paddingHorizontal="10dp"
+            android:background="#7fffffff"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#7fffffff"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:id="@+id/textView_post_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:paddingHorizontal="10dp"
+                android:paddingTop="3dp" />
+
+            <TextView
+                android:id="@+id/textView_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="場所"
+                android:gravity="right"
+                android:paddingHorizontal="10dp"/>
+
+            <TextView
+                android:id="@+id/textView_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ユーザー名前"
+                android:gravity="right"
+                android:paddingHorizontal="10dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

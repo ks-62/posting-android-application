@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ProfileActivity">
+
+    <!-- ヘッダー -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp">
+
+        <!-- アプリタイトル -->
+        <Button
+            style="@style/textTitle"
+            android:id="@+id/button_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:background="@color/white"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <!-- プロフィールボタン -->
+        <Button
+            android:id="@+id/button_profile"
+            style="@style/textNormalWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="20dp"
+            android:background="@drawable/background_brown_radius"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            style="@style/textNormalBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nickname"/>
+
+        <TextView
+            style="@style/textLargeBlack"
+            android:id="@+id/textView_my_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            style="@style/textNormalBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/postCount"/>
+
+        <TextView
+            style="@style/textLargeBlack"
+            android:id="@+id/textView_my_post_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            style="@style/textOnButton"
+            android:id="@+id/button_post"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_brown_radius"
+            android:text="投稿する"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="15dp"/>
+
+        <Button
+            style="@style/textOnButton"
+            android:id="@+id/button_sign_out"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/logout"
+            android:background="@drawable/background_brown_radius"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="15dp"/>
+
+    </LinearLayout>
+
+    <!-- フッター -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp">
+
+        <Button
+            style="@style/textLargeBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp"
+            android:drawableLeft="@drawable/ic_list"
+            android:text="リスト"
+            android:background="@color/white"/>
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="0dp"/>
+
+        <Button
+            style="@style/textLargeBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp"
+            android:drawableLeft="@drawable/ic_post"
+            android:text="ポスト"
+            android:background="@color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>

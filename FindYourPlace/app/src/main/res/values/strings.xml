@@ -1,0 +1,204 @@
+<resources>
+    <string name="app_name">FindYourPlace</string>
+    <string name="web_client_id">448369618936-q44jiori3ajpe7cait12tst046djp1uv.apps.googleusercontent.com</string>
+
+    <string name="login">ログイン</string>
+    <string name="logout">ログアウト</string>
+    <string name="back">戻る</string>
+    <string name="search">検索</string>
+    <string name="afterLogin">ログインしました。</string>
+    <string name="nicknameSetting">ニックネームを設定してください。</string>
+    <string name="nicknameSubmit">ニックネーム登録</string>
+    <string name="nickname">ニックネーム</string>
+    <string name="postCount">投稿数</string>
+    <string name="mainImageSelect">メイン画像を選択する</string>
+    <string name="subImageSelect">サブ画像を選択する</string>
+    <string name="postTitle">投稿タイトル</string>
+    <string name="genre">ジャンル</string>
+    <string name="country">国</string>
+    <string name="city_1">都道府県</string>
+    <string name="city_2">市区町村</string>
+    <string name="city_3">字・番地・号</string>
+    <string name="country_input">国  ></string>
+    <string name="city_1_input">都道府県  ></string>
+    <string name="city_2_input">市区町村  ></string>
+    <string name="location">場所</string>
+    <string name="postComment">コメント</string>
+    <string name="post">投稿</string>
+    <string name="noData">関連するデータがまだ投稿されていません</string>
+
+    <string-array name="genreArray">
+        <item>ジャンルを選択</item>
+        <item>賑やか</item>
+        <item>落ち着く</item>
+        <item>都会的</item>
+        <item>のどか</item>
+        <item>その他</item>
+    </string-array>
+
+    <string name="CD_MTS">誰かに会える</string>
+    <string name="CD_FSN">おしゃれ</string>
+    <string name="CD_FUN">楽しい</string>
+    <string name="CD_BTY">綺麗</string>
+    <string name="CD_CHL">静か</string>
+    <string name="CD_ALN">人がいない</string>
+    <string name="CD_FNT">神秘的</string>
+    <string name="CD_SEA">海</string>
+    <string name="CD_MNT">山</string>
+    <string name="CD_GRN">緑が多い</string>
+    <string name="CD_NTR">自然</string>
+    <string name="CD_RVR">川</string>
+    <string name="CD_UEP">秘境</string>
+    <string name="CD_NST">駅近</string>
+    <string name="CD_OPN">開放的</string>
+    <string name="CD_EXT">異国感</string>
+    <string name="CD_FTR">未来的</string>
+    <string name="CD_WLT">散歩</string>
+    <string name="CD_RLX">ゆっくりできる</string>
+    <string name="CD_KTT">暇つぶし</string>
+    <string name="CD_LTS">穴場</string>
+    <string name="CD_ACS">アクセスがいい</string>
+    <string name="CD_HGH">高い</string>
+
+
+    <string-array name="keyaray">
+        <item>
+            <string-array name="CD_MTS_1">
+                <item>CD_MTS</item>
+                <item>誰かに会える</item>
+            </string-array>
+        </item>
+        <item>
+            <string-array name="CD_FSN_1">
+                <item>CD_FSN</item>
+                <item>おしゃれ</item>
+            </string-array>
+        </item>
+        <item>
+            <string-array name="CD_FUN_1">
+                <item>CD_FUN</item>
+                <item>楽しい</item>
+            </string-array>
+        </item>
+    </string-array>
+
+    <string-array name="CD_MTS">
+        <item>CD_MTS</item>
+        <item>誰かに会える</item>
+    </string-array>
+    <string-array name="CD_FSN">
+        <item>CD_FSN</item>
+        <item>おしゃれ</item>
+    </string-array>
+    <string-array name="CD_FUN">
+        <item>CD_FUN</item>
+        <item>楽しい</item>
+    </string-array>
+    <string-array name="CD_BTY">
+        <item>CD_BTY</item>
+        <item>綺麗</item>
+    </string-array>
+    <string-array name="CD_CHL">
+        <item>CD_CHL</item>
+        <item>静か</item>
+    </string-array>
+    <string-array name="CD_ALN">
+        <item>CD_ALN</item>
+        <item>人がいない</item>
+    </string-array>
+    <string-array name="CD_FNT">
+        <item>CD_FNT</item>
+        <item>神秘的</item>
+    </string-array>
+    <string-array name="CD_SEA">
+        <item>CD_SEA</item>
+        <item>海</item>
+    </string-array>
+    <string-array name="CD_MNT">
+        <item>CD_MNT</item>
+        <item>山</item>
+    </string-array>
+    <string-array name="CD_GRN">
+        <item>CD_GRN</item>
+        <item>緑が多い</item>
+    </string-array>
+    <string-array name="CD_NTR">
+        <item>CD_NTR</item>
+        <item>自然</item>
+    </string-array>
+    <string-array name="CD_RVR">
+        <item>CD_RVR</item>
+        <item>川</item>
+    </string-array>
+    <string-array name="CD_UEP">
+        <item>CD_UEP</item>
+        <item>秘境</item>
+    </string-array>
+    <string-array name="CD_NST">
+        <item>CD_NST</item>
+        <item>駅近</item>
+    </string-array>
+    <string-array name="CD_OPN">
+        <item>CD_OPN</item>
+        <item>開放的</item>
+    </string-array>
+    <string-array name="CD_EXT">
+        <item>CD_EXT</item>
+        <item>異国感</item>
+    </string-array>
+    <string-array name="CD_FTR">
+        <item>CD_FTR</item>
+        <item>未来的</item>
+    </string-array>
+    <string-array name="CD_WLT">
+        <item>CD_WLT</item>
+        <item>散歩</item>
+    </string-array>
+    <string-array name="CD_RLX">
+        <item>CD_RLX</item>
+        <item>ゆっくりできる</item>
+    </string-array>
+    <string-array name="CD_KTT">
+        <item>CD_KTT</item>
+        <item>暇つぶし</item>
+    </string-array>
+    <string-array name="CD_LTS">
+        <item>CD_LTS</item>
+        <item>穴場</item>
+    </string-array>
+    <string-array name="CD_ACS">
+        <item>CD_ACS</item>
+        <item>アクセスがいい</item>
+    </string-array>
+    <string-array name="CD_HGH">
+        <item>CD_HGH</item>
+        <item>高い</item>
+    </string-array>
+
+    <string-array name="keyword">
+        <item>誰かに会える</item>
+        <item>おしゃれ</item>
+        <item>楽しい</item>
+        <item>綺麗</item>
+        <item>静か</item>
+        <item>人がいない</item>
+        <item>神秘的</item>
+        <item>海</item>
+        <item>山</item>
+        <item>緑が多い</item>
+        <item>自然</item>
+        <item>川</item>
+        <item>秘境</item>
+        <item>駅近</item>
+        <item>開放的</item>
+        <item>異国感</item>
+        <item>未来的</item>
+        <item>散歩</item>
+        <item>ゆっくりできる</item>
+        <item>暇つぶし</item>
+        <item>穴場</item>
+        <item>アクセスがいい</item>
+        <item>高い</item>
+    </string-array>
+
+</resources>

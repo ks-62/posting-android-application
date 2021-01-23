@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.NicknameActivity"
+    android:gravity="center"
+    android:background="@color/colorMain"
+    android:padding="20dp">
+
+    <TextView
+        style="@style/textLargeWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/afterLogin"
+        android:textSize="22sp"/>
+
+    <TextView
+        style="@style/textLargeWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nicknameSetting"
+        android:layout_marginTop="10dp"
+        android:textSize="22sp"/>
+
+    <!-- ニックネーム入力 -->
+    <EditText
+        style="@style/textNormalBlack"
+        android:id="@+id/editText_nick_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_grey_radius"/>
+
+    <!-- 登録 -->
+    <Button
+        style="@style/textNormalBrown"
+        android:id="@+id/button_nickname_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nicknameSubmit"
+        android:background="@drawable/background_button_white"
+        android:paddingHorizontal="10dp"
+        android:layout_marginTop="70dp"/>
+
+</LinearLayout>

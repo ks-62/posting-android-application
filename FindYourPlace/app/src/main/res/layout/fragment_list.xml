@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/background_purple_radius"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginBottom="5dp">
+
+                <!-- 検索ワード一覧 -->
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingHorizontal="5dp">
+
+                    <LinearLayout
+                        android:id="@+id/linear_search_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+                <ImageButton
+                    android:id="@+id/button_search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:minHeight="0dp"
+                    android:paddingHorizontal="15dp"
+                    android:paddingVertical="20dp"
+                    android:scaleType="center"
+                    android:background="@drawable/background_brown_radius"
+                    android:src="@drawable/ic_search"/>
+
+            </LinearLayout>
+
+            <!-- 投稿 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingHorizontal="20dp"
+                android:orientation="vertical"
+                android:background="@color/clear">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView_post_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar_list_fragment"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:background="@drawable/progress_bar"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar_bottom"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="5dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:visibility="gone"
+        android:background="@drawable/progress_bar"/>
+
+</FrameLayout>

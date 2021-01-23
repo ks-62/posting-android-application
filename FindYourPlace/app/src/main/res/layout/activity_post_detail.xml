@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.PostDetailActivity"
+    android:orientation="vertical">
+
+    <!-- ヘッダー -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:background="@color/clear">
+
+        <!-- アプリタイトル -->
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/button_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="0dp"
+            android:textColor="@color/colorMain"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/app_name"
+            android:background="@color/white"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <!-- プロフィールボタン -->
+        <Button
+            android:id="@+id/button_profile"
+            style="@style/textNormalWhite"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="0dp"
+            android:paddingVertical="5dp"
+            android:paddingHorizontal="20dp"
+            android:background="@drawable/background_brown_radius"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- 投稿タイトル -->
+                <TextView
+                    style="@style/textLargeBlack"
+                    android:id="@+id/textView_post_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="投稿タイトル"
+                    android:paddingHorizontal="20dp"/>
+
+                <!-- 画像 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="5dp">
+
+                    <ImageView
+                        android:id="@+id/imageView_post1"
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:layout_margin="5dp"
+                        android:background="#a1a1a1"
+                        android:scaleType="centerCrop"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView_post2"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="5dp"
+                            android:background="#a1a1a1"
+                            android:scaleType="centerCrop"/>
+
+                        <ImageView
+                            android:id="@+id/imageView_post3"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="5dp"
+                            android:background="#a1a1a1"
+                            android:scaleType="centerCrop"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView_post4"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="5dp"
+                            android:background="#a1a1a1"
+                            android:scaleType="centerCrop"/>
+
+                        <ImageView
+                            android:id="@+id/imageView_post5"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="5dp"
+                            android:background="#a1a1a1"
+                            android:scaleType="centerCrop"/>
+
+                        <ImageView
+                            android:id="@+id/imageView_post6"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="5dp"
+                            android:background="#a1a1a1"
+                            android:scaleType="centerCrop"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- ジャンル -->
+                <TextView
+                    style="@style/textNormalBlack"
+                    android:id="@+id/textView_genre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ジャンル"
+                    android:paddingHorizontal="20dp"
+                    android:layout_marginTop="15dp"/>
+
+                <!-- 投稿内容 -->
+                <TextView
+                    style="@style/textNormalBlack"
+                    android:id="@+id/textView_post_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="投稿内容"
+                    android:paddingHorizontal="20dp"
+                    android:layout_marginTop="10dp"/>
+
+                <!-- 場所 -->
+                <TextView
+                    style="@style/textNormalBlack"
+                    android:id="@+id/textView_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="場所"
+                    android:paddingHorizontal="20dp"
+                    android:layout_marginTop="10dp"/>
+
+                <!-- 投稿者名 -->
+                <TextView
+                    style="@style/textNormalBlack"
+                    android:id="@+id/textView_user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="20dp"
+                    android:text="投稿者名"
+                    android:gravity="right"
+                    android:layout_marginTop="20dp"/>
+
+                <!-- 投稿日 -->
+                <TextView
+                    style="@style/textNormalBlack"
+                    android:id="@+id/textView_post_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2020/12/13"
+                    android:paddingHorizontal="20dp"
+                    android:gravity="right"
+                    android:layout_marginTop="5dp"/>
+
+                <!-- 戻るボタン -->
+                <Button
+                    android:id="@+id/button_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="戻る"
+                    android:background="@drawable/background_brown_radius"
+                    style="@style/textOnButton"
+                    android:paddingHorizontal="50dp"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

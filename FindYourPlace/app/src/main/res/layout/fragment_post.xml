@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- 画像 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="5dp">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imageView_post1"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_margin="5dp"
+                            android:background="#a1a1a1"
+                            android:scaleType="centerCrop"/>
+
+                        <TextView
+                            android:id="@+id/textView_img1"
+                            style="@style/textNormalBlack"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/mainImageSelect"
+                            android:gravity="center"/>
+
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="5dp">
+
+                            <ImageView
+                                android:id="@+id/imageView_post2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#a1a1a1"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:id="@+id/textView_img2"
+                                style="@style/textNormalBlack"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/subImageSelect"
+                                android:gravity="center"
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="5dp">
+
+                            <ImageView
+                                android:id="@+id/imageView_post3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#a1a1a1"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:id="@+id/textView_img3"
+                                style="@style/textNormalBlack"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/subImageSelect"
+                                android:gravity="center"
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="5dp">
+
+                            <ImageView
+                                android:id="@+id/imageView_post4"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#a1a1a1"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:id="@+id/textView_img4"
+                                style="@style/textNormalBlack"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/subImageSelect"
+                                android:gravity="center"
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="5dp">
+
+                            <ImageView
+                                android:id="@+id/imageView_post5"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#a1a1a1"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:id="@+id/textView_img5"
+                                style="@style/textNormalBlack"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/subImageSelect"
+                                android:gravity="center"
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="5dp">
+
+                            <ImageView
+                                android:id="@+id/imageView_post6"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#a1a1a1"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:id="@+id/textView_img6"
+                                style="@style/textNormalBlack"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/subImageSelect"
+                                android:gravity="center"
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- 入力欄 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="20dp">
+
+                    <EditText
+                        android:id="@+id/editText_post_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/postTitle"
+                        android:maxLength="18"
+                        android:textSize="14sp"
+                        android:layout_marginTop="15dp"/>
+
+                    <EditText
+                        android:id="@+id/editText_country"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/country"
+                        android:layout_marginTop="15dp"/>
+
+                    <EditText
+                        android:id="@+id/editText_city_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:hint="@string/city_1" />
+
+                    <EditText
+                        android:id="@+id/editText_city_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/city_2"
+                        android:layout_marginTop="15dp"/>
+
+                    <EditText
+                        android:id="@+id/editText_city_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/city_3"
+                        android:layout_marginTop="15dp"/>
+
+                    <Spinner
+                        android:id="@+id/spinner_genre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <CheckBox
+                                android:id="@+id/checkBox_cd_mts"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="誰かに会える" />
+
+                            <CheckBox
+                                android:id="@+id/checkBox_cd_fsn"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="おしゃれ" />
+
+                            <CheckBox
+                                android:id="@+id/checkBox_cd_fun"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="楽しい"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <CheckBox
+                                android:id="@+id/checkBox_cd_bty"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="きれい" />
+
+                            <CheckBox
+                                android:id="@+id/checkBox_cd_chl"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="静か" />
+
+                            <CheckBox
+                                android:id="@+id/checkBox_cd_aln"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="人がいない"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <CheckBox
+                                android:id="@+id/checkBox_cd_fnt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="神秘的" />
+
+                            <CheckBox
+                                android:id="@+id/checkBox_cd_sea"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="海" />
+
+                            <CheckBox
+                                android:id="@+id/checkBox_cd_mnt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="山"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <CheckBox
+                                android:id="@+id/checkBox_cd_grn"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="緑が多い" />
+
+                            <CheckBox
+                                android:id="@+id/checkBox_cd_ntr"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="自然" />
+
+                            <CheckBox
+                                android:id="@+id/checkBox_cd_rvr"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="川"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <CheckBox
+                                android:id="@+id/checkBox_cd_uep"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="秘境" />
+
+                            <CheckBox
+                                android:id="@+id/checkBox_cd_nst"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="駅近" />
+
+                            <CheckBox
+                                android:id="@+id/checkBox_cd_opn"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="開放的"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <CheckBox
+                                android:id="@+id/checkBox_cd_ext"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="異国感" />
+
+                            <CheckBox
+                                android:id="@+id/checkBox_cd_ftr"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="未来的" />
+
+                            <CheckBox
+                                android:id="@+id/checkBox_cd_wlk"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="散歩"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <CheckBox
+                                android:id="@+id/checkBox_cd_rlx"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="ゆっくりできる" />
+
+                            <CheckBox
+                                android:id="@+id/checkBox_cd_ktt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="暇つぶし" />
+
+                            <CheckBox
+                                android:id="@+id/checkBox_cd_lts"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="穴場"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <CheckBox
+                                android:id="@+id/checkBox_cd_acs"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="アクセスが良い" />
+
+                            <CheckBox
+                                android:id="@+id/checkBox_cd_hgh"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="高いところ" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/editText_post_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:padding="10dp"
+                        android:inputType="textMultiLine"
+                        android:hint="@string/postComment"
+                        android:background="@drawable/background_grey_radius"
+                        android:textSize="14sp"
+                        android:maxLength="140"
+                        android:layout_marginTop="15dp"
+                        android:gravity="top"/>
+
+                </LinearLayout>
+
+                <!-- 投稿ボタン -->
+                <Button
+                    style="@style/textOnButton"
+                    android:id="@+id/button_post_submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/post"
+                    android:layout_marginVertical="15dp"
+                    android:paddingHorizontal="50dp"
+                    android:background="@drawable/background_brown_radius"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar_post_fragment"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:background="@drawable/progress_bar"/>
+
+</FrameLayout>
